@@ -2,4 +2,5 @@
 
 (defpackage :borda-count
   (:use :common-lisp :alexandria)
-  (:export))
+  (:export
+   #:borda-count))
